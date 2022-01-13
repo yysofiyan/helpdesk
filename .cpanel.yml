@@ -3,3 +3,5 @@ deployment:
     - export DEPLOYPATH=/home/u8620162/public_html/sisinfo
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp blog $DEPLOYPATH
+    - /bin/cp tailwind.config.js $DEPLOYPATH
